@@ -1,0 +1,70 @@
+# Política de Privacidade — Material UI Android Boot Suite
+
+**Última atualização:** 07 de Setembro de 2026  
+**Responsável:** Felipe Rodrigues Michetti (<frmichetti@gmail.com>)
+
+---
+
+## 1. Introdução
+
+Esta Política de Privacidade descreve como o aplicativo **Material UI Android Boot Suite** ("nós", "nosso" ou "aplicativo") lida com as informações dos usuários. Nosso compromisso é proteger sua privacidade e garantir total transparência no tratamento de dados, em conformidade com as diretrizes do **Google Play Developer Program Policies**, a **Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018)** e o **Regulamento Geral sobre a Proteção de Dados (GDPR)**.
+
+---
+
+## 2. Coleta e Uso de Informações
+
+O **Material UI Android Boot Suite** é primariamente um aplicativo de demonstração de interface de usuário (UI/UX Showroom). 
+
+- **Dados Pessoais Coletados:** O aplicativo **NÃO coleta, armazena, transmite ou compartilha nenhum dado pessoal identificável** (como nome real, CPF, e-mail, senhas bancárias ou dados de cartão de crédito) em servidores remotos próprios.
+- **Dados Mockados e Simulação:** Todas as informações visíveis nas telas (contatos, fotos de perfil, mensagens de chat, produtos de e-commerce, receitas culinárias e voos) são geradas localmente em memória (*in-memory collections*) exclusivamente para fins de visualização de design e testes de usabilidade.
+
+---
+
+## 3. Permissões Solicitadas pelo Dispositivo
+
+O aplicativo pode solicitar determinadas permissões no dispositivo para demonstrar fluxos de interface nativos do Android:
+
+1. **Localização (`ACCESS_FINE_LOCATION`, `ACCESS_COARSE_LOCATION`):**
+   - *Finalidade:* Utilizada exclusivamente no módulo *Taxi App* para centralizar o mapa do Google Maps na posição estimada do usuário e calcular distâncias simuladas de corrida.
+   - *Compartilhamento:* Nenhuma coordenada de localização é gravada ou repassada a terceiros.
+
+2. **Câmera e Microfone (`CAMERA`, `RECORD_AUDIO`):**
+   - *Finalidade:* Utilizada no módulo *Messenger App* para simular a abertura de chamada de vídeo e voz.
+   - *Compartilhamento:* Nenhum fluxo de áudio ou imagem é gravado ou transmitido para a internet.
+
+3. **Armazenamento / Fotos (`READ_MEDIA_IMAGES` / `WRITE_EXTERNAL_STORAGE`):**
+   - *Finalidade:* Utilizada para permitir que o usuário selecione fotos da galeria em demonstrações de envio de anexo ou atualização de avatar local.
+
+4. **Acesso à Rede (`INTERNET`, `ACCESS_NETWORK_STATE`):**
+   - *Finalidade:* Utilizada para carregamento de blocos de mapas do Google Maps SDK e verificação básica de conectividade.
+
+---
+
+## 4. Segurança dos Dados (Data Safety)
+
+- **Criptografia em Trânsito:** Não há tráfego de dados confidenciais do usuário.
+- **Exclusão de Dados:** Como nenhum dado é retido em servidores externos, desinstalar o aplicativo ou limpar os dados do app nas configurações do Android remove instantaneamente qualquer preferência local salva em cache (*SharedPreferences*).
+- **Público Infantil:** O aplicativo não é direcionado a crianças menores de 13 anos e não coleta intencionalmente dados de menores.
+
+---
+
+## 5. Serviços de Terceiros
+
+O aplicativo pode integrar bibliotecas de terceiros que operam sob suas próprias políticas de privacidade:
+- **Google Play Services & Google Maps SDK:** [Política de Privacidade do Google](https://policies.google.com/privacy).
+
+---
+
+## 6. Alterações a Esta Política de Privacidade
+
+Podemos atualizar nossa Política de Privacidade periodicamente. Notificaremos sobre quaisquer alterações publicando a nova versão neste documento e atualizando a data de "Última atualização".
+
+---
+
+## 7. Contato
+
+Se você tiver alguma dúvida, sugestão ou solicitação sobre esta Política de Privacidade ou sobre o tratamento de dados no aplicativo, entre em contato conosco:
+
+- **E-mail:** [frmichetti@gmail.com](mailto:frmichetti@gmail.com)  
+- **Responsável:** Felipe Rodrigues Michetti  
+- **País:** Brasil
